@@ -7,7 +7,7 @@ Parameters:
   SystemName:
     Description: "System name of each resource names."
     Type: String
-    Default: "gr"
+    Default: "jaewook"
   EnvName:
     Description: "Environment name of each resource names."
     Type: String
