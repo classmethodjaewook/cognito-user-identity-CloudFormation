@@ -33,11 +33,11 @@ Resources:
           RequireSymbols: false
           RequireUppercase: true
       MfaConfiguration: 'OFF' # MFA 설정은 무효화
-      AccountRecoverySetting: # 계적 복구에는 이메일을 사용
+      AccountRecoverySetting: # 계정 복구에는 이메일을 사용
         RecoveryMechanisms:
           - Name: verified_email
             Priority: 1
-      AutoVerifiedAttributes: # 로그인, 계쩡 복구 등에 사용할 인증 방법을 선택
+      AutoVerifiedAttributes: # 로그인, 계정 복구 등에 사용할 인증 방법을 선택
       - email
       UserAttributeUpdateSettings: # 업데이트가 보류 중일 때 원래 속성 값을 활성 상태로 유지
         AttributesRequireVerificationBeforeUpdate:
